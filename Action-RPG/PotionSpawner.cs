@@ -1,6 +1,8 @@
 using UnityEngine;
 using CreatorKitCode;
 
+//add to a model to spawn potions with , and assign the object you want to spawn to the ObjectToSpawn variable
+//This script spawns three copies of a specified object in a circular pattern around the original object's position at angles of 15°, 55°, and 95°
 public class PotionSpawner : MonoBehaviour
 {
     // This is the object we want to spawn (set this in the Inspector)
